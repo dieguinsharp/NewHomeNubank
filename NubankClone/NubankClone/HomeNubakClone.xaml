@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NubankClone.HomeNubankClone" BackgroundColor="White">
+
+    <ScrollView VerticalScrollBarVisibility="Never">
+        <Grid RowSpacing="25" HorizontalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout VerticalOptions="Start" Grid.Row="0" Padding="15,10">
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton CornerRadius="100" Padding="15" BackgroundColor="#9b3bda" HeightRequest="50" WidthRequest="50" HorizontalOptions="StartAndExpand">
+                        <ImageButton.Source>
+                            <FontImageSource FontFamily="FontAwesome" Glyph="&#xf406;" Color="White"/>
+                        </ImageButton.Source>
+                    </ImageButton>
+                    <ImageButton CornerRadius="100" Padding="10" BackgroundColor="Transparent" HeightRequest="42" WidthRequest="42" HorizontalOptions="End">
+                        <ImageButton.Source>
+                            <FontImageSource FontFamily="FontAwesome" Glyph="&#xf070;" Color="White"/>
+                        </ImageButton.Source>
+                    </ImageButton>
+                    <ImageButton CornerRadius="100" Padding="10" BackgroundColor="Transparent" HeightRequest="42" WidthRequest="42" HorizontalOptions="End">
+                        <ImageButton.Source>
+                            <FontImageSource FontFamily="FontAwesome" Glyph="&#xf059;" Color="White"/>
+                        </ImageButton.Source>
+                    </ImageButton>
+                    <ImageButton CornerRadius="100" Padding="10" BackgroundColor="Transparent" HeightRequest="42" WidthRequest="42" HorizontalOptions="End">
+                        <ImageButton.Source>
+                            <FontImageSource FontFamily="FontAwesome" Glyph="&#xf0e0;" Color="White"/>
+                        </ImageButton.Source>
+                    </ImageButton>
+                </StackLayout>
+                <StackLayout Padding="10,16">
+                    <Label Text="Olá, Diego" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="White" FontSize="Medium" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="Start" Grid.Row="1" Orientation="Horizontal" Padding="25,0" BackgroundColor="White">
+                <StackLayout BackgroundColor="White" Spacing="15" HorizontalOptions="StartAndExpand">
+                    <Label Text="Conta" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" FontSize="Large" />
+                    <Label Text="R$ 100,00" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" FontSize="Title" />
+                </StackLayout>
+                <StackLayout BackgroundColor="White" HorizontalOptions="End" VerticalOptions="Start">
+                    <ImageButton BackgroundColor="Transparent" Padding="10" Source="next.png" HeightRequest="35" WidthRequest="35" HorizontalOptions="End"/>
+                </StackLayout>
+            </StackLayout>
+
+            <ScrollView Grid.Row="2" Orientation="Horizontal" HorizontalScrollBarVisibility="Never" Padding="25,12">
+                <StackLayout HorizontalOptions="FillAndExpand" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" BackgroundColor="White">
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" Source="pix1.png" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center"/>
+                        <Label Text="Pix" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center">
+                            <ImageButton.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf463;" Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                        <Label Text="Pagar" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center">
+                            <ImageButton.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf88f;" Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                        <Label Text="Transferir" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center">
+                            <ImageButton.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf88d;" Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                        <Label Text="Depositar" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center">
+                            <ImageButton.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf4c0;" Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                        <Label Text="Emprestado" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center">
+                            <ImageButton.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf10b;" Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                        <Label Text="Recarga" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center">
+                            <ImageButton.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf4c5;" Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                        <Label Text="Cobrar" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                    <StackLayout BackgroundColor="Transparent" Spacing="12">
+                        <ImageButton CornerRadius="100" Padding="22" BackgroundColor="#f0f1f5" HeightRequest="70" WidthRequest="70" HorizontalOptions="Center">
+                            <ImageButton.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf004;" Color="Black"/>
+                            </ImageButton.Source>
+                        </ImageButton>
+                        <Label Text="Doação" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+
+            <StackLayout Grid.Row="3" BackgroundColor="White" Padding="25,0,25,0">
+                <Frame CornerRadius="10" BackgroundColor="#f0f1f5" Padding="12" HasShadow="False">
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#f0f1f5">
+                        <Image BackgroundColor="#f0f1f5" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start">
+                            <Image.Source>
+                                <FontImageSource FontFamily="FontAwesome" Glyph="&#xf09d;" Color="Black"/>
+                            </Image.Source>
+                        </Image>
+                        <Label Text="Meus cartões" Margin="15,0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <ScrollView Grid.Row="4" Orientation="Horizontal" HorizontalScrollBarVisibility="Never" Padding="25,0">
+                <StackLayout HorizontalOptions="FillAndExpand" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" BackgroundColor="White">
+                    <Frame CornerRadius="15" BackgroundColor="#f0f1f5" Padding="12" HasShadow="False">
+                        <StackLayout Orientation="Horizontal" BackgroundColor="#f0f1f5">
+                            <Label Margin="15" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" HorizontalOptions="Start" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Você tem R$ 12.500,00 disponiveis &#10; para "/>
+                                        <Span Text="empréstimo." TextColor="{StaticResource Roxinho}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+                    <Frame CornerRadius="15" BackgroundColor="#f0f1f5" Padding="12" HasShadow="False">
+                        <StackLayout Orientation="Horizontal" BackgroundColor="#f0f1f5">
+                            <Label Margin="15" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" HorizontalOptions="Start" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Small">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="Conquiste planos futuros: conheça &#10; as opções para "/>
+                                        <Span Text="guardar dinheiro." TextColor="{StaticResource Roxinho}"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+
+            <BoxView HeightRequest="1" Grid.Row="5" Color="#f0f1f5" Margin="0,0"/>
+
+            <StackLayout Grid.Row="6" BackgroundColor="White" Padding="25,0" Spacing="8">
+                <Image BackgroundColor="Transparent" HeightRequest="30" WidthRequest="30" HorizontalOptions="Start">
+                    <Image.Source>
+                        <FontImageSource FontFamily="FontAwesome" Glyph="&#xf09d;" Color="Black"/>
+                    </Image.Source>
+                </Image>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                    <Label Text="Cartão de crédito" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Large" />
+                    <ImageButton BackgroundColor="Transparent" Padding="10" Source="next.png" HeightRequest="35" WidthRequest="35" HorizontalOptions="End"/>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White" Spacing="4">
+                    <Label Text="Fatura atual" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                    <Label Text="R$ 100,00" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" FontSize="Title" />
+                    <Label Text="Limite disponivel de R$ 200,00" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                </StackLayout>
+
+            </StackLayout>
+
+            <BoxView HeightRequest="1" Grid.Row="7" Color="#f0f1f5" Margin="0,0"/>
+
+            <StackLayout Grid.Row="8" BackgroundColor="White" Padding="25,0" Spacing="8">
+                
+                <Image BackgroundColor="Transparent" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start">
+                    <Image.Source>
+                        <FontImageSource FontFamily="FontAwesome" Glyph="&#xf4c0;" Color="Black"/>
+                    </Image.Source>
+                </Image>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                    <Label Text="Empréstimo" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Large" />
+                    <ImageButton BackgroundColor="Transparent" Padding="10" Source="next.png" HeightRequest="35" WidthRequest="35" HorizontalOptions="End"/>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White" Spacing="4">
+                    <Label Text="Valor disponível de até" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                    <Label Text="R$ 12.500,00" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                </StackLayout>
+
+            </StackLayout>
+
+            <BoxView HeightRequest="1" Grid.Row="9" Color="#f0f1f5" Margin="0,0"/>
+
+            <StackLayout Grid.Row="10" BackgroundColor="White" Padding="25,0" Spacing="8">
+
+                <Image BackgroundColor="Transparent" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start">
+                    <Image.Source>
+                        <FontImageSource FontFamily="FontAwesome" Glyph="&#xf012;" Color="Black"/>
+                    </Image.Source>
+                </Image>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                    <Label Text="Investimentos" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Large" />
+                    <ImageButton BackgroundColor="Transparent" Padding="10" Source="next.png" HeightRequest="35" WidthRequest="35" HorizontalOptions="End"/>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White" Spacing="8">
+                    <Label Text="A evolução roxa começou. Invista de maneira simples, sem burocracia e 100% digital." HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                </StackLayout>
+
+            </StackLayout>
+
+            <BoxView HeightRequest="1" Grid.Row="11" Color="#f0f1f5" Margin="0,0"/>
+
+            <StackLayout Grid.Row="12" BackgroundColor="White" Padding="25,0" Spacing="8">
+
+                <Image BackgroundColor="Transparent" HeightRequest="25" WidthRequest="25" HorizontalOptions="Start">
+                    <Image.Source>
+                        <FontImageSource FontFamily="FontAwesome" Glyph="&#xf004;" Color="Black"/>
+                    </Image.Source>
+                </Image>
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                    <Label Text="Seguro de vida" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="StartAndExpand" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Large" />
+                    <ImageButton BackgroundColor="Transparent" Padding="10" Source="next.png" HeightRequest="35" WidthRequest="35" HorizontalOptions="End"/>
+                </StackLayout>
+
+                <StackLayout BackgroundColor="White" Spacing="8">
+                    <Label Text="Conheça Nubank Vida: um seguro simples e que cabe no bolso." HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                </StackLayout>
+
+            </StackLayout>
+
+            <BoxView HeightRequest="1" Grid.Row="13" Color="#f0f1f5" Margin="0,0"/>
+
+            <StackLayout Grid.Row="14" BackgroundColor="White" Padding="25,0,0,25" Spacing="20">
+                <Label Text="Descubra mais" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Large" />
+                <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                    <StackLayout HorizontalOptions="FillAndExpand" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" BackgroundColor="White">
+                        <Frame BackgroundColor="#f0f1f5" Padding="25" CornerRadius="15">
+                            <StackLayout BackgroundColor="Transparent" Spacing="15">
+                                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent">
+                                    <Label Text="WhatsApp" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Large" />
+                                    <Frame Padding="5" CornerRadius="5" BackgroundColor="{StaticResource Roxinho}">
+                                        <Label Text="Novo" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="White" FontSize="Small" />
+                                    </Frame>
+                                </StackLayout>
+                                <Label Text="Pagamentos seguros, rápidos e sem &#10;tarifa. A experiência Nubank sem &#10;sair da conversa." HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                                <Frame BackgroundColor="{StaticResource Roxinho}" CornerRadius="25" Padding="15,10" HorizontalOptions="Start" VerticalOptions="EndAndExpand">
+                                    <Label Text="Quero conhecer" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="White" FontSize="Small" />
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="#f0f1f5" Padding="25" CornerRadius="15">
+                            <StackLayout BackgroundColor="Transparent" Spacing="15">
+                                <StackLayout Orientation="Horizontal" BackgroundColor="Transparent">
+                                    <Label Text="Indique seus amigos" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Black" FontSize="Large" />
+                                </StackLayout>
+                                <Label Text="Mostre seus amigos como é &#10;fácil ter uma vida sem burocracia." HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="Gray" FontSize="Small" />
+                                <Frame BackgroundColor="{StaticResource Roxinho}" CornerRadius="25" Padding="15,10" HorizontalOptions="Start" VerticalOptions="EndAndExpand">
+                                    <Label Text="Indicar amigos" HorizontalTextAlignment="Start" HorizontalOptions="Start" FontAttributes="Bold" FontFamily="{StaticResource FontePadrao}" TextColor="White" FontSize="Small" />
+                                </Frame>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </ScrollView>
+            </StackLayout>
+            
+
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

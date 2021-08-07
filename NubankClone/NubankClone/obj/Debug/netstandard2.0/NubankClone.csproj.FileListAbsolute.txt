@@ -1,0 +1,14 @@
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\bin\Debug\netstandard2.0\NubankClone.deps.json
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\bin\Debug\netstandard2.0\NubankClone.dll
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\bin\Debug\netstandard2.0\ref\NubankClone.dll
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\bin\Debug\netstandard2.0\NubankClone.pdb
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\NubankClone.csproj.AssemblyReference.cache
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\NubankClone.AssemblyInfoInputs.cache
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\NubankClone.AssemblyInfo.cs
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\NubankClone.csproj.CoreCompileInputs.cache
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\NubankClone.dll
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\ref\NubankClone.dll
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\NubankClone.pdb
+C:\Users\Diego\Desktop\Nubank Clone\NubankClone\NubankClone\NubankClone\obj\Debug\netstandard2.0\HomeNubakClone.xaml.g.cs
